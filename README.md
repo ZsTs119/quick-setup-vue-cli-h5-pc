@@ -1,6 +1,7 @@
 
 ##quick-setup-vue-cli-h5-pc是什么
 一个优化了打包体积即插即用的脚手架，针对h5和pc场景有分别的命令行启动。针对axios对element和vant的组件使用封装。
+
 ##quick-setup-vue-cli-h5-pc对打包进行哪些优化？
 
 * 利用打包配置Tree Shaking：移除项目中未使用的代码
