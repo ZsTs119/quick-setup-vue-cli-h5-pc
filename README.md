@@ -1,5 +1,8 @@
 ##quick-setup-vue-cli-h5-pc 是什么
-一个优化了打包体积即插即用的脚手架，针对 h5 和 pc 场景有分别的命令行启动。针对 axios 对 element 和 vant 的组件使用封装。
+
+- 一个专门对打包配置优化的一款即插即用的脚手架
+- 针对 h5 和 pc 场景有分别的命令行启动
+- 针对 axios 对 element 和 vant 的组件使用封装。
 
 ##quick-setup-vue-cli-h5-pc 对打包进行哪些优化？
 
