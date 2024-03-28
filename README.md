@@ -24,8 +24,6 @@
 - 项目封装的 axios 也自动根据当前的环境判断使用 element 组件还是 vant 组件
 - 项目全局封装了 svg-icon 组件，使用方式将 svg 放到 assets/icons/svg 文件夹里。在直接使用<svg-icon class="svg名"></svg-icon>
 
-##若遇到vue-template-compiler@2.7.16于vue@2.6.14版本不一致，请手动调节版本一致即可
-
 ##有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
 
