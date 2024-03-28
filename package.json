@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "vue-cli-service serve --mode dev",
     "dev:h5": "vue-cli-service serve --mode devh5",
+    "pro": "vue-cli-service serve --mode prod",
+    "pro:h5": "vue-cli-service serve --mode prodh5",
     "pre": "vue-cli-service serve --mode pre",
     "test": "vue-cli-service serve --mode test",
     "local": "vue-cli-service serve --mode local",
