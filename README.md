@@ -6,7 +6,7 @@
 
 ##quick-setup-vue-cli-h5-pc 对打包进行哪些优化？
 
-- 利用打包配置 Tree Shaking：移除项目中未使用的代码
+- 利用打包配置 Tree Shaking：移除项目中未使用的代码,开启多线程，生产环境去除 console.log，debugger，移除注释，移除单独的 .LICENSE 文件
 - 缩小依赖库的大小查看 package.json 尝试使用缩小版的库类。如：lodash-es 代替 lodsh
 - 使用代码压缩插件 compression-webpack-plugin
 - 按需加载 polyfill
@@ -17,6 +17,9 @@
 - 分割 vendors chunk 模块引用频率、体积等设置更合理的 split chunk,防止重复代码。
 - 替换 webpack 默认的压缩插件 terser-webpack-plugin 使用 terser-webpack-plugin
 - 开启作用域树结构，减少模块间代码引用 Scope Hoisting
+- 配置增加本地开发构建速度：别名(alias)，解析到文件时自动添加拓展名(extensions)，
+  指明存放第三方模块的绝对路径(modules)，持续化缓存 (cache)
+- 增加 babel-loader,缓存指定目录
 
 ##quick-setup-vue-cli-h5-pc 其他功能
 
